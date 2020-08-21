@@ -9,7 +9,7 @@ mkdir var/build/obj && cd var/build/obj;
 
 time cmake ../../../ \
 -DTOOLS=1 \
--DUNIT_TESTS=1 \
+-DUNIT_TESTS=0 \
 -DSCRIPTS=0 \
 -DSERVERS=0 \
 -DCMAKE_BUILD_TYPE=Debug \
