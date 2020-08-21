@@ -17,7 +17,7 @@ AzerothCore (AC) is an open source game-server application for World of Warcraft
 It is written in C++ and is based on MaNGOS, TrinityCore and SunwellCore.
 
 
-## WHY AZEROTHCORE?
+## WHY AZEROTHCORE?aa
 
 1. Stability
 1. Authenticity of the content
