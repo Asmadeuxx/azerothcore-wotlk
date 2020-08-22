@@ -29,6 +29,6 @@ time cmake ../../../ \
 -DCMAKE_CXX_COMPILER_LAUNCHER=ccache \
 ;
 
-time make -j $(($(sysctl -n hw.ncpu ) + 2)) || true
+time make -j $(($(sysctl -n hw.ncpu ) + 2))
 
 ccache -s
