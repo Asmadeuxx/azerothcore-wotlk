@@ -2,7 +2,7 @@
 
 export CCACHE_CPP2=true
 export CCACHE_MAXSIZE='500MB'
-export CCACHE_SLOPPINESS=time_macros
+export CCACHE_SLOPPINESS=pch_defines,time_macros,include_file_mtime,include_file_ctime,file_stat_matches
 
 ccache -s
 
