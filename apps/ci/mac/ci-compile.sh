@@ -4,7 +4,6 @@ export CCACHE_CPP2=true
 export CCACHE_MAXSIZE='500MB'
 export CCACHE_SLOPPINESS=time_macros
 
-ccache --clear
 ccache -s
 
 mkdir var/build/obj && cd var/build/obj;
