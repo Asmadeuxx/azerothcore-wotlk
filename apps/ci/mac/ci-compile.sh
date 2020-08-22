@@ -2,7 +2,7 @@
 
 export CCACHE_CPP2=true
 export CCACHE_MAXSIZE='500MB'
-export CCACHE_SLOPPINESS=pch_defines,time_macros,include_file_mtime
+export CCACHE_SLOPPINESS=pch_defines,time_macros
 ccache -s
 
 mkdir var/build/obj && cd var/build/obj;
